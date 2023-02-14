@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Validación de telefono mediante a expresiones regulares:</h1>
+    <form action="form.html">
+        <label for="fnumber">Numero de telefono:</label><br>
+        <input type="text" id="fnumber" name="fnumber" placeholder="Introduce tu numero" pattern="(\d{9})" required title="Tienen que ser 9 digitos">
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
